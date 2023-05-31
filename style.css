@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    width: 100vh;
+}
+
+aside{
+    background-color: #025E73;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+.logo_volks .imagem_volks{
+    width: 100px;
+    margin-top: 30px
+    
+}
+
+.logo_volks .moldura_config .imagemfoto{
+    width: 100px;
+    margin-top: 30px;
+
+
+}
+
+.moldura_config{
+    position: relative;
+}
+
+.logo_volks .moldura_config .configura{
+    width: 25px;
+    position: absolute;
+    bottom: 100px;
+    right: 5px;
+
+}
+
+.menu_conteudo{
+    margin-top: 30px;
+}
+
+.menu_conteudo ul li{
+    list-style: none;
+   
+    
+}
+.menu_conteudo ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  
+
+}
+
+.logounidades{
+    width: 30px;
+}
+.logousuarios{
+    width: 35px;
+    margin-top: 5px;
+}
+
+.div_logofirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+
+.saida{
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.logofirst{
+    width: 100px;
+}
+
+
+.botao_selecionar{
+    display: flex;
+    flex-direction: row;
+}
+
+.botao{
+    
+}
